@@ -1,0 +1,11 @@
+html
+  head
+    title= title
+  body
+    ul.nav
+      each link in links
+        li
+          a(href=link) Link to #{link}
+    h1= title
+    h3= subtitle
+    div!= content

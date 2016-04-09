@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/",
+    "title": "Hello World",
+    "subtitle": "Welcome to Mock Website",
+    "content": "This is <strong>SOME</strong> content!",
+    "links": ["/other", "/foo"]
+  },
+  {
+    "path": "/other",
+    "title": "Hello Other World",
+    "subtitle": "Aliens Exist",
+    "content": "This is <strong>SOME</strong> <i>other</i> content!",
+    "links": ["/", "/foo"]
+  }
+]
