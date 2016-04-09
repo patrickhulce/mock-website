@@ -3,7 +3,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 
 var app = module.exports = express();
-app.set('views', './');
+app.set('views', __dirname);
 app.set('view engine', 'jade');
 app.use(bodyParser.json({strict: false}));
 
